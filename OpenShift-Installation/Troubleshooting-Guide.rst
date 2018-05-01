@@ -595,7 +595,7 @@ Follow the steps below to uninstall a Nuage Openshift cluster running on RHEL wo
                ovs-worker2.mvdcdev08.us.alcatel-lucent.com : ok=189  changed=55   unreachable=0    failed=0   
 
 
-Follow the steps below to uninstall a Nuage Openshift cluster running on Atomic worker & RHEL master nodes.
+Follow the steps below to uninstall a Nuage Openshift cluster running on Atomic master & worker nodes.
 
 1. Delete any user created projects on the cluster and/or corresponding zones on the VSD
 
@@ -617,14 +617,13 @@ Follow the steps below to uninstall a Nuage Openshift cluster running on Atomic 
          :: 
          
                /var/usr/share/vsp-openshift/
-               /usr/share/vsp-openshift/
                /etc/default/nuage-cni.yaml 
                /etc/nuage-infra-pod-config-daemonset.yaml
                /etc/nuage-node-config-daemonset.yaml
                /etc/nuage-master-config-daemonset.yaml
-               /usr/share/nuage-openshift-ca/           
-               /usr/share/nuage-openshift-certificates/ 
-               /usr/share/nuage-openshift-monitor/
+               /var/usr/share/nuage-openshift-ca/           
+               /var/usr/share/nuage-openshift-certificates/ 
+               /var/usr/share/nuage-openshift-monitor/
                /opt/cni/
                /etc/cni/ 
           
