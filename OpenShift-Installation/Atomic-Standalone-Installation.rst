@@ -17,6 +17,7 @@ The installation procedure in this section is for VSP integration with OpenShift
 
 .. Note:: For information on other supported platforms and distributions, see the *Nuage VSP Release Notes*.
 
+For the full supportability matrix see `here <https://github.com/kmurthy1/nuage-kubernetes#nuage-openshift>`_. 
 
 Ansible Installation
 ==========================
@@ -120,11 +121,11 @@ Setup
 
 1. To prepare the OpenShift cluster for installation, follow the OpenShift Host Preparation guide.
    
-   For Nuage releases prior to 5.2.1, go `here <https://docs.openshift.com/container-platform/3.5/install_config/install/host_preparation.html/>`_.
+   For Nuage releases prior to 5.2.1, go `here <https://docs.openshift.com/container-platform/3.5/install_config/install/host_preparation.html>`_.
    
-   For Nuage releases 5.2.1, go `here <https://docs.openshift.com/container-platform/3.6/install_config/install/host_preparation.html/>`_. 
+   For Nuage releases 5.2.1, go `here <https://docs.openshift.com/container-platform/3.6/install_config/install/host_preparation.html>`_. 
    
-   For Nuage releases 5.2.2 and later, go `here <https://docs.openshift.com/container-platform/3.7/install_config/install/host_preparation.html/>`_. 
+   For Nuage releases 5.2.2 and later, go `here <https://docs.openshift.com/container-platform/3.7/install_config/install/host_preparation.html>`_. 
       
    .. Note:: Skip the yum update part in the OpenShift Host Preparation guide.
 
