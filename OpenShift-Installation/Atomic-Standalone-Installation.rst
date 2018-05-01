@@ -15,9 +15,9 @@ The VSP integration with OpenShift is supported on RHEL Atomic hosts (VERSION 7.
 
 The installation procedure in this section is for VSP integration with OpenShift when the master nodes and worker nodes are RHEL Atomic hosts. This guide documents the installation procedure for Atomic Standalone Installation.
 
-.. Note:: For information on other supported platforms and distributions, see the *Nuage VSP Release Notes*.
+To see the complete Nuage Openshift supportability matrix go `here <https://github.com/kmurthy1/nuage-kubernetes#nuage-openshift>`_. 
 
-For the full supportability matrix see `here <https://github.com/kmurthy1/nuage-kubernetes#nuage-openshift>`_. 
+.. Note:: For information on other supported platforms and distributions, see the *Nuage VSP Release Notes*.
 
 Ansible Installation
 ==========================
